@@ -9,7 +9,7 @@
   - When a new user registers via this referral link, the user who referred them immediately receives **690 points**.
   - The referrer earns a percentage of the points generated from each trade made by their referred user. This bonus is extra and does not reduce the referred user's points.
 
-    - For every 0.00005 ETH in referral trading volume = 1 point is awarded
+    - For every 0.0002 ETH in referral trading volume = 1 point is awarded
 
 ## [0.2.1] - 02/17/2025
 
