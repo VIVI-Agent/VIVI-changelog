@@ -1,3 +1,9 @@
+## [0.2.3] - 02/18/2025
+
+### Points System
+
+- Hot Weekend Special: Users Earn 2x Points from Friday 21/02 to Monday 24/02, 1PM UTC
+
 ## [0.2.2] - 02/18/2025
 
 ### Referral System
