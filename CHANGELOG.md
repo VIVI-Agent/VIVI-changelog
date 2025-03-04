@@ -2,7 +2,7 @@
 
 ### Zero-Fee Buying for Coinbase BTC (cbBTC)
 
-- **No-Fee Swaps:** Users can now buy cbBTC without any transaction fees, reducing costs and maximizing investment efficiency.
+- **No-Fee Swaps:** Users can now buy cbBTC without any platform fees, reducing costs while incentivizing healthy portfolio management
 
 ## [0.2.4] - 02/27/2025
 
