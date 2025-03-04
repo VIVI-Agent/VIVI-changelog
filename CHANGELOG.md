@@ -1,3 +1,11 @@
+## [0.2.4] - 02/27/2025
+
+### Enhanced Buy and Sell Scenes
+
+- **Detailed Token Statistics:** The scenes now display comprehensive token data including current holders, circulating supply, and basic market statistics to help users assess token health.
+- **Optimized Swap Quotes:** Users receive improved swap quotes that show the buy amount alongside the expected output from the best available DEX (covering Uniswap V2, Uniswap V3, and Aerodrome). This allows for better comparison and decision-making.
+- **Unified Interface:** The updated design integrates token stats, swap quotes, and key market indicators into a single, cohesive view for a more informed and seamless trading experience.
+
 ## [0.2.3] - 02/21/2025
 
 ### Points System
