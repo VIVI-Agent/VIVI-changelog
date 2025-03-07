@@ -1,3 +1,19 @@
+## [0.2.6] - 03/06/2025
+
+### Best Dex and Quotes
+
+- Improved overall speed when fetching the most advantageous quote across supported DEXs.
+
+### Uniswap V4 Indexer
+
+- **Indexer for Uniswap V4**: Init new indexer to gather pool data from Uniswap V4, including PoolManager and StateView logic.
+
+  - _Note_: Swap functionality coming soon.
+
+### Points System
+
+- Finished x2 rewards promotion (no more extra points). Back to regular points earnings.
+
 ## [0.2.5] - 02/28/2025
 
 ### Zero-Fee Buying for Coinbase BTC (cbBTC)
