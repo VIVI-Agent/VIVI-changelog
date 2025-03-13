@@ -1,3 +1,34 @@
+## [0.2.0] - 03/13/2025
+
+### Group-Level Token Transfers
+
+- **Balance Command:**  
+  The `@VIVIBaseBot balance` command shows the selected wallet’s ETH balance along with a list of token holdings.
+- **Access Control:**  
+  These group-level commands remain restricted to registered bot users only.
+
+## [0.2.8] - 03/09/2025
+
+### Group-Level Token Transfers
+
+- **Send, Transfer and Burn Commands (Group):**  
+  Users can now execute token transfers `@VIVIBaseBot send` (send), `@VIVIBaseBot burn` burn tokens, and transfer ETH directly from groups.
+  - Supports both numerical amounts as well as the keywords “half” and “all” to indicate percentages of the wallet’s holdings.
+  - Displays appropriate feedback and updates balances accordingly.
+- **Access Control:**  
+   These group-level commands remain restricted to registered bot users only.
+
+## [0.2.7] - 03/07/2025
+
+### Group-Level Trading Commands
+
+- **Buy and Sell in Groups:**  
+  The bot now supports executing the `@VIVIBaseBot buy` and `@VIVIBaseBot sell` commands directly in groups.
+  - Users can swap tokens from within group chats without needing to switch to private chat.
+  - Commands are available exclusively for users registered in the bot.
+- **Access Control:**  
+   These group-level commands remain restricted to registered bot users only.
+
 ## [0.2.6] - 03/06/2025
 
 ### Best Dex and Quotes
