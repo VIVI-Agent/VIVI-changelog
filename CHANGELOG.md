@@ -1,3 +1,11 @@
+## [0.3.0] - 03/15/2025
+
+### Tactival VIVI - Group/Channels Notifications for DexScreener Profiles
+
+- The bot can now be added to groups or channels to receive notifications about new token profiles from DexScreener.
+- Group admins can enable notifications with `/notify_on`, and the bot will periodically post alerts in all enabled chats.
+- Stay updated on token activity—and join our channel for more updates: [TacticalVIVI](https://t.me/TacticalVIVI).
+
 ## [0.2.9] - 03/13/2025
 
 ### Group-Level Token Transfers
