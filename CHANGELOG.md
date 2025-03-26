@@ -1,3 +1,60 @@
+## [0.3.1] - 03/26/2025
+
+### Group Bot Updates
+
+- **Multiple Recipients in `/send`**  
+  The `/send` command now supports sending tokens or ETH to multiple Telegram users (registered or not) or Ethereum addresses in a single command.
+- **Send to Any Telegram User**  
+  When sending to unregistered Telegram users, the bot automatically creates a wallet for them. They can later access their new funds privately via **@VIVIBaseBot**.
+- **Improved Command/Message Handling**  
+  The group command system has been streamlined for reliability and clearer bot responses.
+
+```
+@BotUsername buy <amountInETH> <token|address> [slippage]
+» Buys the specified token from within the group chat.
+
+@BotUsername sell <percent|half|all> <token|address> [slippage]
+» Sells the specified percentage (or half/all) of your token holdings.
+
+@BotUsername send <amount|half|all> <token|eth> <@username|0xAddress> [...multiple recipients]
+» Transfers tokens or ETH (when token=eth) to one or more recipients.
+
+@BotUsername burn <amount|half|all> <token|address>
+» Burns (destroys) the specified amount of tokens.
+
+@BotUsername balance
+» Displays your current wallet balance (ETH and tokens) for the active wallet.
+
+@BotUsername invite
+» Generates a registration link with a referral code for new users.
+```
+
+### Private Bot Updates
+
+- **Enhanced Feedback Scene**  
+  The feedback feature now supports multiple images and extended user messages for more detailed submissions.
+- **Register Presale Wallet**  
+  A new scene allows registering an external wallet for whitelisting in the VIVI Token presale via DAOS.WORLD.
+- **Add Me to Group Button**  
+  The bot now provides a button to be added to groups. It requires minimal admin permissions for reading and responding to user messages.
+- **Buy Token on the Fly**  
+  You can jump to the Buy scene by pasting a valid contract address anywhere in the bot (except when the bot is specifically waiting for a different input).
+- **Holdings Scene & Token Import**  
+  Users can manually add tokens they’ve received externally to their VIVI wallet.
+- **Buy & Sell Scene Improvements**  
+  Redesigned menus, enhanced messaging, and clearer handling of amounts, slippage, and transaction confirmations.
+
+### VIVI-Radar
+
+- **Bot Migration**  
+  Tactical VIVI has moved to a new bot: [VIVIRadar](https://t.me/VIVIRadar).
+- **Removed DexScreener Profile Alerts**  
+  To avoid notifying about potential rugs or scams, DexScreener profile alerts have been dropped.
+- **New “Clanker” Deploy Notifications**  
+  The bot now detects tokens deployed via _Clanker_, distinguishing them from _Bankr_ deploys.
+- **Minimum Volume Filtering**  
+  A minimum volume filter is applied two minutes after detecting a new token deploy, ensuring higher-quality alerts.
+
 ## [0.3.0] - 03/15/2025
 
 ### Tactival VIVI - Group/Channels Notifications for DexScreener Profiles
