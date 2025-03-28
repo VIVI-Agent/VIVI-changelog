@@ -11,7 +11,7 @@ Now Clanker, Rainbow, and KOA deployers, plus DexScreener profiles updates from 
   Now listens for KOA `Deploy Token`, retrieves new tokens, tracks volume, and notifies on threshold (0.05 ETH Volume).
 
 - **Update for BANKR's new thread Fee policy**  
-  `Creator Address` now shows the wallet of the deployer in replies.
+  When a token is deployed from a reply, `Creator Address` now reflects the wallet of the person who deployed — not the thread author.
 
 - **Safe DexScreener Alerts**  
   Now alerting on DexScreener profile updates only from safe deployers: Clanker, Rainbow, and KOA.
@@ -28,7 +28,7 @@ Help and feedback buttons are accessible via slash commands in the Telegram menu
   Users can now see a full list of commands – `/buy`, `/sell`, `/wallets`, `/settings`, etc. – directly in their Telegram menu without needing to type them out.
 
 - **Group Bot `/help` Command**  
-  A new `/help@VIVIBaseBot` command is available in group chats, directing users to comprehensive documentation that explains how to use group handlers and commands.
+  New `/help@VIVIBaseBot` command is available in group chats, directing users to comprehensive documentation that explains how to use group handlers and commands.
 
 ## [0.3.1] - 03/26/2025
 
