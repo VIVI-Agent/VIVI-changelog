@@ -3,7 +3,7 @@
 ### Bot Command Registration
 
 - **Private Bot Menu**  
-  The private bot menu has been cleaned up to provide a cleaner user interface. Help and feedback buttons have been moved to the Telegram menu via slash commands for easier access.
+  The private bot menu has been updated up to provide a cleaner user interface. Help and feedback buttons have been moved to the Telegram menu via slash commands for easier access.
 
 - **Private Bot Commands**  
   Users can now see a full list of commands – `/buy`, `/sell`, `/wallets`, `/settings`, etc. – directly in their Telegram menu without needing to type them out.
