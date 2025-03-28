@@ -1,3 +1,16 @@
+## [0.3.2] - 03/27/2025
+
+### Bot Command Registration
+
+- **Private Bot Menu**  
+  The private bot menu has been cleaned up to provide a cleaner user interface. Help and feedback buttons have been moved to the Telegram menu via slash commands for easier access.
+
+- **Private Bot Commands**  
+  Users can now see a full list of commands – `/buy`, `/sell`, `/wallets`, `/settings`, etc. – directly in their Telegram menu without needing to type them out.
+
+- **Group Bot `/help` Command**  
+  A new `/help@VIVIBaseBot` command is available in group chats, directing users to comprehensive documentation that explains how to use group handlers and commands.
+
 ## [0.3.1] - 03/26/2025
 
 ### Group Bot Updates
