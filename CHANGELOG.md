@@ -1,3 +1,21 @@
+## [0.3.3] - 03/27/2025
+
+### Multi-Deployer Radar Bot
+
+This version expands coverage to Clanker, Rainbow, and KOA deployers, plus DexScreener profile tracking, with a modular design for adding future deployers integrations.
+
+- **Rainbow Integration**  
+  Now listens for Rainbow `Deploy Token`, retrieves new tokens, tracks volume, and notifies on threshold (0.05 ETH Volume).
+
+- **KOA Integration**  
+  Now listens for KOA `Deploy Token`, retrieves new tokens, tracks volume, and notifies on threshold (0.05 ETH Volume).
+
+- **Bankr/Thread Detection**  
+  Generalized Clanker logic for Bankr “threads,” listing recipients when available.
+
+- **DexScreener Profiles**  
+  Polls DexScreener’s API. If a newly listed token was already flagged by volume, a “profile detected” alert is sent.
+
 ## [0.3.2] - 03/27/2025
 
 ### Bot Command Registration
