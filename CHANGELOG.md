@@ -1,27 +1,28 @@
 ## [0.3.3] - 03/27/2025
 
-### Multi-Deployer Radar Bot
+### VIVI's Radar expansion
 
-This version expands coverage to Clanker, Rainbow, and KOA deployers, plus DexScreener profile tracking, with a modular design for adding future deployers integrations.
+Now Clanker, Rainbow, and KOA deployers, plus DexScreener profiles updates from tokens from Safe Deployers, with a modular design for adding future deployers integrations.
 
-- **Rainbow Integration**  
+- **Add Rainbow**  
   Now listens for Rainbow `Deploy Token`, retrieves new tokens, tracks volume, and notifies on threshold (0.05 ETH Volume).
 
-- **KOA Integration**  
+- **Add KOA**  
   Now listens for KOA `Deploy Token`, retrieves new tokens, tracks volume, and notifies on threshold (0.05 ETH Volume).
 
-- **Bankr/Thread Detection**  
-  Generalized Clanker logic for Bankr “threads,” listing recipients when available.
+- **Update for BANKR's new thread Fee policy**  
+  `Creator Address` now shows the wallet of the deployer in replies.
 
-- **DexScreener Profiles**  
-  Polls DexScreener’s API. If a newly listed token was already flagged by volume, a “profile detected” alert is sent.
+- **Safe DexScreener Alerts**  
+  Now alerting on DexScreener profile updates only from safe deployers: Clanker, Rainbow, and KOA.
 
 ## [0.3.2] - 03/27/2025
 
 ### Bot Command Registration
 
 - **Private Bot Menu**  
-  The private bot menu has been updated up to provide a cleaner user interface. Help and feedback buttons have been moved to the Telegram menu via slash commands for easier access.
+  Now refreshed with a cleaner UI.
+Help and feedback buttons are accessible via slash commands in the Telegram menu for easier access.
 
 - **Private Bot Commands**  
   Users can now see a full list of commands – `/buy`, `/sell`, `/wallets`, `/settings`, etc. – directly in their Telegram menu without needing to type them out.
