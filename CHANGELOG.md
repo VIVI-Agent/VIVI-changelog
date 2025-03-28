@@ -1,6 +1,6 @@
 ## [0.3.3] - 03/28/2025
 
-### VIVI's Radar expansion
+### VIVI's Radar Expansion
 
 Now Clanker, Rainbow, and KOA deployers, plus DexScreener profiles updates from tokens from Safe Deployers, with a modular design for adding future deployers integrations.
 
