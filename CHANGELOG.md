@@ -1,3 +1,21 @@
+## [0.3.4] - 04/01/2025
+
+### DexScreener & Internal Improvements
+
+- **New DexScreener Message Format**  
+  When a DexScreener profile is detected for a token already flagged by volume, the bot now sends an update with the new style.
+
+- **Twitter links improved**
+  Includes a refined Twitter search link.
+
+- **Internal Logging Improvements**  
+  Additional log statements have been added for error handling and block-based searches, making it easier to debug connectivity or timing issues.
+
+- **Minor Fixes**
+  - Adjusted the DexScreener polling interval to reduce timeouts.
+  - Minor formatting updates in the volume detection messages.
+  - Various code cleanups in watchers to improve clarity and maintainability.
+
 ## [0.3.3] - 03/28/2025
 
 ### VIVI's Radar Expansion
@@ -21,8 +39,8 @@ Now Clanker, Rainbow, and KOA deployers, plus DexScreener profiles updates from 
 ### Bot Command Registration
 
 - **Private Bot Menu**  
-  Now refreshed with a cleaner UI.
-Help and feedback buttons are accessible via slash commands in the Telegram menu for easier access.
+   Now refreshed with a cleaner UI.
+  Help and feedback buttons are accessible via slash commands in the Telegram menu for easier access.
 
 - **Private Bot Commands**  
   Users can now see a full list of commands – `/buy`, `/sell`, `/wallets`, `/settings`, etc. – directly in their Telegram menu without needing to type them out.
