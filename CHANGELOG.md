@@ -1,6 +1,6 @@
 ## [0.3.5] - 04/03/2025
 
-### BUY COMPETITION FEATURE (Group Mode) — _MVP_
+### BUY COMPETITION FEATURE (Telegram Group Chats) — _MVP_
 
 - **Group Buy Event System**  
   Admins can now launch _Buy Events_ on a _specific ERC-20 Token_.
