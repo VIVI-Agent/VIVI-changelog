@@ -1,3 +1,34 @@
+## [0.3.5] - 04/03/2025
+
+### BUY COMPETITION (Group Mode) — _MVP_
+
+- **Group Buy Event System**  
+  Admins can now launch _Buy Events_ on a _specific ERC-20 Token_.
+  These events allow users to compete by buying tokens and climbing the leaderboard.
+
+- **Buy Event Wizard** (`/createbuyevent`)  
+  Admins can start an interactive scene:
+
+  - Name the event, upload a banner, and set the token address.
+  - Includes validation for image dimensions (1280x360 recommended).
+  - Previews the summary before launch with inline confirmation.
+
+- **Leaderboard System** (`/leaderboard` - `/myeventstat` )
+
+  - Shows top 10 buyers with total ETH spent and buy count.
+  - Highlights the _biggest buy_ and the user with the _most purchases_.
+  - Leaderboard banners are supported for better visual context.
+
+- **User Commands Summary**
+
+  - `/createbuyevent`: _(Group Admin)_ Starts the wizard to launch a new buy event.
+  - `/closebuyevent`: _(Group Admin)_ Allows admins to manually close an ongoing event.
+  - `/leaderboard`: Shows the current or most recent leaderboard.
+  - `/myeventstat`: Displays a user’s personal rank and ETH spent.
+
+- **Preview Mode Notice**  
+  This feature is currently restricted to a set of authorized groups as part of a closed testing phase.
+
 ## [0.3.4] - 04/01/2025
 
 ### DexScreener & Internal Improvements
