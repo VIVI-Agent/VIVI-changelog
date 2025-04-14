@@ -1,3 +1,15 @@
+# Changelog
+
+## [0.3.6] - 04/14/2025
+
+### WALLET MANAGEMENT - Import Wallet
+
+- **Import Wallet Feature** Users can now import existing wallets via private key through the Wallet Management interface.
+  - Secure encryption of imported private keys using the same protection as generated wallets.
+  - Duplicate wallet detection to prevent importing the same wallet multiple times.
+  - Newly imported wallets are automatically set as the default wallet.
+  - After import, users can go to `/holdings` to import tokens associated with the wallet.
+
 ## [0.3.5] - 04/03/2025
 
 ### BUY COMPETITION FEATURE (Telegram Group Chats) — _MVP_
