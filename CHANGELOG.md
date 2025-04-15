@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.7] - 04/15/2025
+
+### VIVI's Radar Expansion
+
+- **Add CLIZA**  
+  Now listens for Cliza `Deploy Token`, retrieves new tokens, tracks volume, and notifies on threshold (0.05 ETH Volume).
+
 ## [0.3.6] - 04/14/2025
 
 ### WALLET MANAGEMENT - Import Wallet
