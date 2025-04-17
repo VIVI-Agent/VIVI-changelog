@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.8] - 04/17/2025
+
+### BUY COMPETITION FEATURE (Telegram Group Chats) — Open to all groups
+
+- **Group Buy Event System**  
+  Admins (**on any group**) can now launch _Buy Events_ on a _specific ERC-20 Token_.
+  These events allow users to compete by buying tokens and climbing the leaderboard.
+
 ## [0.3.7] - 04/15/2025
 
 ### VIVI's Radar Expansion
