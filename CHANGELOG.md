@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.3.9] - 04/21/2025
+
+### Group Bot - Updated Balance Command
+
+- **@username Balance**  
+  The `balance` command now supports an extra parameter to view any user's wallet on group chats.
+
+```
+@VIVIBaseBot balance @username
+```
+
 ## [0.3.8] - 04/17/2025
 
 ### BUY COMPETITION FEATURE (Telegram Group Chats) — Open to all groups
