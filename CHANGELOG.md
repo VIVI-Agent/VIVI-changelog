@@ -2,10 +2,14 @@
 
 ## [0.3.9] - 04/21/2025
 
-### Group Bot - Updated Balance Command
+### Group Bot - Token transfers unlocked across all Telegram
+
+Users can now send tokens to any Telegram user, even if they’re not in the same group chat.
+
+### Group Bot - Expanded Balance Command
 
 - **@username Balance**  
-  The `balance` command now supports an extra parameter to view any user's wallet on group chats.
+  Any user can now trigger `/balance` for any Telegram user, in any group chat.
 
 ```
 @VIVIBaseBot balance @username
