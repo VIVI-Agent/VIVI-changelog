@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.4.0] - 04/22/2025
+
+### WALLET MANAGEMENT - Export Private Key
+
+- **Export Wallet Feature**: Users can now securely export their private keys through the Wallet Management interface.
+  - Access via the new "Export Wallet" button in the Wallets menu
+  - Private keys are automatically deleted after 30 seconds or upon user confirmation
+  - Export multiple wallet keys in sequence as needed
+
 ## [0.3.9] - 04/21/2025
 
 ### Group Bot - Token transfers unlocked across all Telegram
