@@ -1,5 +1,36 @@
 # Changelog
 
+## [0.4.1] - 04/23/2025
+
+### UI/UX Improvements
+
+- **Radar Display Enhancement**: Improved text alignment for notification messages to ensure cleaner, more readable alerts.
+- **Input Format Flexibility**: Added support for both decimal points (.) and commas (,) in numerical inputs for token amounts, ETH values, and percentages to accommodate users with different locale preferences.
+- **Group Buy Competition Commands**: Fixed a critical issue where administrators creating a buy event couldn't execute other commands like buy, sell, or balance during event creation.
+  - Added `/cancelcreation` command to quickly abort event creation
+  - Implemented friendly reminders when users attempt to run commands during event creation
+  - Added better error handling and message cleanup
+
+### Command Enhancements
+
+- **Percentage Symbol Support**: The sell command now properly handles percentage symbols (%) when specifying sell amounts (e.g., `sell 25%` now works alongside `sell 25`).
+- **Transfer Command Alias**: Added `transfer` as an alias for the `send` command with identical functionality to match user expectations.
+- **Non-Whitelisted Token Message**: Improved error messages for non-whitelisted tokens with a link to contact the VIVI team for whitelisting requests.
+
+### Transaction Optimization
+
+- **Gas Estimation Improvements**: Completely revamped transaction fee estimation system:
+  - Implemented operation-specific gas limits based on transaction type (BUY, SELL, APPROVE, TRANSFER)
+  - Added dynamic gas adjustment for larger transactions
+  - Configured speed-based priority fee settings with separate profiles for buy/sell operations
+  - Optimized fee multipliers to prevent transaction failures while minimizing costs
+
+### Bug Fixes
+
+- Fixed an issue where group buy competition administrators couldn't use essential commands while creating an event
+- Resolved error handling in notification system that caused misaligned text in alerts
+- Fixed number parsing issues for users with non-US locale settings
+
 ## [0.4.0] - 04/22/2025
 
 ### WALLET MANAGEMENT - Export Private Key
