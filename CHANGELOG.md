@@ -11,8 +11,6 @@
   @VIVIBaseBot transfer 50 USDC satoshi.base.eth
   ```
 
-This brings Web3 identity support to our group transfer system, making it easier for users to send assets using memorable names instead of complex addresses.
-
 ## [0.4.1] - 04/23/2025
 
 ### UI/UX Improvements
