@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.4.2] - 04/25/2025
+
+### Group Commands - Base Names (BNS) Integration
+
+- **Send/Transfer to BNS Names**: Users can now send tokens and ETH directly to Base Names (.base.eth) in group chats
+
+  ```
+  @VIVIBaseBot send 0.1 ETH vivi.base.eth
+  @VIVIBaseBot transfer 50 USDC satoshi.base.eth
+  ```
+
+This brings Web3 identity support to our group transfer system, making it easier for users to send assets using memorable names instead of complex addresses.
+
 ## [0.4.1] - 04/23/2025
 
 ### UI/UX Improvements
