@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.3] - 04/28/2025
+
+### Gas Estimation Improvements
+
+- Smarter gas calculation for taxed tokens and internal transactions
+- Dynamic adjustment based on swap type for better cost efficiency
+- Automatic transaction size detection to fine-tune gas limits
+
 ## [0.4.2] - 04/25/2025
 
 ### Group Commands - Base Names (BNS) Integration
