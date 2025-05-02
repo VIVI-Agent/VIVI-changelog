@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.4.4] - 05/02/2025
+
+### Text-Based Commands in Private Chat
+
+We've introduced intuitive text-based commands that work without the need for command prefixes:
+
+- **`buy <amount> <token>`** - Quickly buy tokens with a specified amount of ETH
+- **`sell <percent|half|all> <token>`** - Easily sell tokens with specific percentage
+- **`send <amount> <token> <recipient1> [<recipient2> ...]`** - Send tokens to one or multiple recipients at once
+- **`transfer <amount> <token> <recipient1> [<recipient2> ...]`** - Alternative to the send command
+- **`balance [@tgUsername]`** - Check your balance or another user's balance
+- **`burn <amount|all|half> <token>`** - Burn tokens permanently
+
+### Send Tx Sharing
+
+- Improved confirmation flow with inline buttons
+- Added "Let 'Em Know" button after successful transfers to easily notify recipients
+- Share transaction details with recipients via Telegram's native sharing
+
 ## [0.4.3] - 04/28/2025
 
 ### Gas Estimation Improvements
