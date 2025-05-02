@@ -2,7 +2,7 @@
 
 ## [0.4.4] - 05/02/2025
 
-### Text-Based Commands in Private Chat
+### Send tokens to any @tguser via VIVI's DM + notify recipient
 
 We've introduced intuitive text-based commands that work without the need for command prefixes:
 
