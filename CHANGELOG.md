@@ -1,7 +1,5 @@
 # Changelog
 
-# Changelog
-
 ## [0.4.5] - 05/05/2025
 
 ### Buy Scene
