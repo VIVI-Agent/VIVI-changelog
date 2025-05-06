@@ -1,5 +1,26 @@
 # Changelog
 
+# Changelog
+
+## [0.4.5] - 05/05/2025
+
+### Buy Scene
+
+- **Multi-Wallet Swaps**: Perform buy operations using multiple wallets directly within the scene.
+- **Gas Priority Selection**: Adjust gas priority (0.1 / 1 / 5 gwei) seamlessly during the buy process.
+- **Real-time Wallet Balances**: Updated ETH balances instantly reflect purchases across all active wallets.
+
+### Sell Scene
+
+- **Multi-Wallet Swaps**: Execute sell operations from multiple wallets within a single scene interaction.
+- **Gas Priority Selection**: Specify desired gas priority (0.1 / 1 / 5 gwei) directly in the sell scene.
+- **Instant Wallet Updates**: ETH and token balances automatically refresh upon transaction completion, accurately reflecting updated holdings.
+
+### Main Menu Scene
+
+- **Aggregated Wallet Balances**: View combined ETH and token balances from all your wallets directly in the Main Menu.
+- **Enhanced Refresh Button**: The refresh button now updates ETH and token balances simultaneously across all wallets, ensuring consistent and accurate balance information.
+
 ## [0.4.4] - 05/02/2025
 
 ### Send tokens to any @tguser via VIVI's DM + notify recipient
