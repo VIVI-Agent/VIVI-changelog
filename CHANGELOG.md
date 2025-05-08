@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.6] - 05/08/2025
+
+### Enhanced RPC Infrastructure
+
+- **Transaction/Call Separation**: Split architecture to process transactions and read-only calls separately, improving overall performance.
+- **Load Balancing**: Added multi-node support to handle increased traffic during peak periods.
+- **Connection Optimization**: Implemented connection pooling for faster response times.
+
 ## [0.4.5] - 05/05/2025
 
 ### Multi-Wallet Trading: Buy Scene
