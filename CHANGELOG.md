@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.4.7] - 05/08/2025
+
+### WALLET MANAGEMENT - Remove Wallet
+
+- **Remove Wallet Feature**: Users can now remove unused wallets from their account through the Wallet Management interface.
+  - Access via the new "🗑️ Remove Wallet" button in the Wallets menu
+  - Clear warnings about permanent loss of access to funds if private key not backed up
+  - Safety protections prevent removing the currently selected wallet
+  - At least one wallet must remain in the account at all times
+
 ## [0.4.6] - 05/08/2025
 
 ### Enhanced RPC Infrastructure
