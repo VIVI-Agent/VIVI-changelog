@@ -1,7 +1,5 @@
 # Changelog
 
-# Changelog
-
 ## [0.4.8] - 05/18/2025
 
 ### PNL Tracking System (MVP)
