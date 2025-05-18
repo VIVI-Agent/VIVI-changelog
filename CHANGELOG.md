@@ -1,5 +1,62 @@
 # Changelog
 
+# Changelog
+
+## [0.4.8] - 05/18/2025
+
+### PNL Tracking System (MVP)
+
+- **Detailed PNL Calculations**: New PNL (Profit and Loss) tracking system provides detailed calculations across all your holdings.
+
+  - Track unrealized profits, realized profits, and total returns for each token
+  - View performance metrics with intuitive visual indicators (🚀, 🔥, 📈, ⚖️, 📉, 💩)
+  - Results automatically include all transactions from all your wallets
+
+- **Multi-Wallet PNL Integration**: PNL calculations now aggregate data from all your wallets for complete portfolio insights.
+
+  - See total cost basis and current value across all wallets
+  - Track percentage returns for each token regardless of which wallet made the trades
+  - Instantly view which wallets contain specific tokens with per-wallet balance breakdown
+
+- **PNL Command**: New `pnl` command shows detailed profit/loss information.
+  - Use `pnl` to see overall performance summary for all tokens
+  - Use `pnl <symbol>` to deep-dive into specific token performance
+  - Command shows balance, current worth, cost basis, unrealized/realized profits, and return percentage
+
+### Enhanced Trading Scenes
+
+- **Buy Scene with PNL Data**: Buy scene now shows real-time PNL information about tokens you already hold.
+
+  - Make informed decisions with current profit/loss data while purchasing
+  - See wallet-by-wallet breakdown of holdings and ETH balances
+  - Instantly understand how your new purchase will affect your average cost
+
+- **Sell Scene with PNL Data**: Sell scene now includes detailed PNL metrics.
+  - View current profit/loss before selling
+  - See how different sell percentages affect your potential realized profits
+  - Get wallet-specific balance information to optimize selling strategy
+
+### Holdings/Positions Scene Improvements
+
+- **Enhanced Token Detail View**: Get comprehensive PNL breakdown for any token in your portfolio.
+
+  - One-tap access to token performance metrics from the portfolio view
+  - See full performance history including cost basis, current value, and percentage returns
+  - View wallet distribution with precise balance information for each wallet
+
+- **Wallet-Specific Views**: Enhanced wallet detail pages show PNL performance for each wallet.
+
+  - Filter and view PNL by individual wallet
+  - Compare performance across different wallets
+  - See which wallets are providing the best returns for specific tokens
+
+- **Import Token Enhancements**: Choose which wallet to import tokens to with a simple selection interface.
+  - User-friendly wallet selection screen during token import
+  - Clear confirmation of which wallet received the imported token
+  - Automatic PNL tracking begins immediately after import
+
+The new PNL system is designed to give traders complete transparency into their portfolio performance, helping make more informed trading decisions with comprehensive, cross-wallet profitability insights.
+
 ## [0.4.7] - 05/08/2025
 
 ### WALLET MANAGEMENT - Remove Wallet
