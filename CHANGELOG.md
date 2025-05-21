@@ -2,7 +2,7 @@
 
 ## [0.4.9] - 05/21/2025
 
-### Enhanced Token Transfer System
+### Update Token Transfers
 
 - **Multi-Recipient Transfers**: Send tokens or ETH to multiple recipients in a single command:
   ```
@@ -10,30 +10,27 @@
   ```
 - **Improved Transfer Experience**:
 
-  - Convenient confirmation step before processing multiple transfers
+  - Confirmation step before processing multiple transfers
   - Real-time progress tracking during multi-recipient transactions
   - Automatic validation of all recipients before starting transfers
-  - Comprehensive transfer summary showing successful and failed transactions
+  - Transfer summary showing successful and failed transactions
 
-- **Intelligent Balance Verification**:
+- **Improved Balance Verification**:
 
-  - Pre-validates your balance against the total required for all recipients
-  - Prevents failed transactions by checking total required amount upfront
-  - Clear error messages when insufficient balance with exact amount needed
+  - Balance Validation for full TX
+  - Error messages when insufficient balance with exact shortage
 
 - **Enhanced Recipient Handling**:
 
   - Support for Telegram usernames, Ethereum addresses, and BNS names in one command
-  - Smart identification of invalid recipients with detailed error reporting
+  - Invalid recipients with detailed error
   - Maximum 15 recipients per transfer command to ensure reliability
 
 - **Streamlined User Interface**:
   - Clear confirmation screens showing all recipients before proceeding
   - Progress indicators for tracking multi-recipient transfers in real-time
-  - Comprehensive end-of-transfer summary with success/failure counts
-  - "Let 'Em Know" button to notify recipients of successful transfers via Telegram
-
-The enhanced token transfer system works the same way in both private chats with VIVI and group chats, allowing you to send crypto to multiple people with a single command whether you're chatting privately or in a group conversation.
+  - End-of-transfer summary with success/failure counts
+  - "Let 'Em Know" button to notify recipients of successful TX via Telegram
 
 ## [0.4.8] - 05/18/2025
 
