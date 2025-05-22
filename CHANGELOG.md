@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.5.0] - 05/21/2025
+## [0.5.0] - 05/22/2025
 
 ### UI/UX & Market Cap Improvements
 
