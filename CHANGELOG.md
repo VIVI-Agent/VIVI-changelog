@@ -1,5 +1,32 @@
 # Changelog
 
+## [0.5.0] - 05/21/2025
+
+### UI/UX & Market Cap Improvements
+
+- **Enhanced Market Cap Calculations**: Improved accuracy and reliability of market cap calculations in both buy and sell scenes.
+
+  - Real-time data refresh for more accurate market information
+  - Better handling of low-liquidity tokens with small market caps
+
+- **PNL Display Enhancements**: Refined token and ETH displays in the PNL tracking system.
+
+  - Clearer formatting for large numbers with appropriate separators
+  - Consistent decimal precision across all token displays
+
+- **Multi-Wallet Balance Fix**: Resolved an issue where only the public wallet balance was displayed in the main menu after completing a buy or sell operation.
+  - Main menu now correctly shows aggregated balances from all wallets after any transaction
+  - Fixed refresh mechanism to properly update all connected wallet balances
+
+### Command System Restructuring
+
+- **Separated Inline Commands**: Completely restructured the inline command handling system for both group chats and direct messages.
+  - Distinct command paths for `buy`, `sell`, and `send` operations
+  - Improved parsing for complex command structures
+  - Better error handling with specific error messages for each command type
+  - Reduced command conflicts and interference between similar operations
+  - Enhanced support for command chaining in complex scenarios
+
 ## [0.4.9] - 05/21/2025
 
 ### Update Token Transfers
