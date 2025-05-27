@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.5.1] - 05/27/2025
+
+### Zora Token Swap Support
+
+- **Zora Token Integration**: Buy and sell scenes now support tokens launched via Zora's social network platform.
+
+  - Automatic detection of Zora-deployed tokens with native liquidity pools
+  - Seamless trading using multi-hop routing: ETH → USDC → ZORA → TOKEN for purchases
+  - Reverse path TOKEN → ZORA → USDC → ETH for sales
+  - Optimized quote comparison across all available dexes.
+  - Fallback to standard DEX routing if Zora pools unavailable or a better non-ZORA/TOKEN pool is available
+
+- **Group/Private Commands**: All existing group trading commands now work with Zora tokens.
+
+  ```
+  @VIVIBaseBot buy 0.1 <zora_token_address>
+  @VIVIBaseBot sell 50% <zora_token_address>
+  ```
+
 ## [0.5.0] - 05/22/2025
 
 ### UI/UX & Market Cap Improvements
