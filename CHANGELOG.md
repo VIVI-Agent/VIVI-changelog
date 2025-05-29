@@ -1,5 +1,29 @@
 # Changelog
 
+## [0.5.2] - 05/29/2025
+
+### ApeStore Integration
+
+- **ApeStore Token Support**: Buy and sell scenes now support tokens launched via ApeStore platform.
+
+  - Automatic detection of ApeStore prebo
+  - Seamless trading integration with ApeStore's pre graduated token ecosystem
+  - Optimized routing for ApeStore tokens across all supported DEXs
+  - Enhanced token metadata retrieval from ApeStore API
+
+- **Group/Private Commands**: All existing trading commands now work with ApeStore tokens.
+  Once ApeStore Token is graduated the bot will use uniswap v2 or v3 pools.
+
+  ```
+  @VIVIBaseBot buy 0.1 <apestore_token_address>
+  @VIVIBaseBot sell 50% <apestore_token_address>
+  ```
+
+- **Enhanced Pool Discovery**: Improved pool discovery system across all supported DEXs for faster and more stable trading.
+  - Optimized pool detection algorithms for better performance
+  - Enhanced stability in multi-DEX routing and quote comparison
+  - Faster response times when discovering liquidity across different platforms
+
 ## [0.5.1] - 05/27/2025
 
 ### Zora Token Swap Support
