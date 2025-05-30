@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.5.3] - 05/30/2025
+
+### MultiSend Feature
+
+- **Multi-Recipient Token Transfers**: Enhanced the existing send functionality to support sending tokens or ETH to multiple recipients simultaneously.
+
+  - Batch Processing: Execute up to 30 transfers in a single command for improved efficiency
+  - Smart Validation: Pre-flight checks ensure sufficient balance for all transfers before processing
+  - Enhanced Command Syntax: Improved parsing for multi-recipient commands across all interfaces.
+
+  ```
+  # Send to multiple recipients at once
+  send 0.01 ETH @alice @bob 0x742d35Cc6634C0532925a3b8D214C3D2F9D1f8 vivi.base.eth
+
+  # Group chat multi-send
+  @VIVIBaseBot send 50 USDC @user1 @user2 satoshi.base.eth
+  ```
+
+- **Optimized Batch Transactions**: Improved gas estimation and transaction queuing for multi-recipient operations
+- **Enhanced Error Recovery**: Better handling of partial failures in batch operations with detailed error reporting
+
 ## [0.5.2] - 05/29/2025
 
 ### ApeStore Integration
