@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.5.4] - 05/31/2025
+
+### Virtual Protocol Token Support
+
+- **Virtual Token Integration**: Buy and sell scenes now support tokens launched via Virtual Protocol's launchpad platform.
+
+  - Automatic detection of Virtual Protocol-deployed tokens with native liquidity pools
+  - Seamless trading using multi-hop routing: ETH → VIRTUAL → TOKEN for purchases
+  - Reverse path TOKEN → VIRTUAL → ETH for sales
+  - Optimized quote comparison across all available DEXs including Virtual Protocol pools
+  - Fallback to standard DEX routing if Virtual pools unavailable or non-optimal
+
+- **Group/Private Commands**: All existing trading commands now work with Virtual Protocol tokens.
+
+  ```
+  @VIVIBaseBot buy 0.1 <virtual_token_address>
+  @VIVIBaseBot sell 50% <virtual_token_address>
+  ```
+
 ## [0.5.3] - 05/30/2025
 
 ### MultiSend Feature
