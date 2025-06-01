@@ -2,7 +2,7 @@
 
 ## [0.5.4] - 05/31/2025
 
-### Virtual Protocol Token Support
+### Virtuals Protocol Token Support
 
 - **Virtual Token Integration**: Buy and sell scenes now support tokens launched via Virtual Protocol's launchpad platform.
 
