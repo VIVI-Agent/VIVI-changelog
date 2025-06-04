@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.5.5] - 06/03/2025
+
+### Onboard Feature - Batch Token + ETH Distribution
+
+- **Instant Onboard System**: New `onboard` command that streamlines token distribution to multiple Telegram users in a single, efficient transaction. Distribute tokens to multiple users instantly while ensuring they have gas to transact.
+
+- **Enhanced User Experience**: Recipients receive clear notifications about their allocation and can immediately start trading without needing to fund their wallets for gas.,
+
+  ```
+  # Group chat onboarding
+  @VIVIBaseBot onboard 1 TOKEN @alice @bob
+
+  # Direct message onboarding
+  onboard 1 TOKEN @alice @bob
+  ```
+
 ## [0.5.4] - 05/31/2025
 
 ### Virtuals Protocol Token Support
