@@ -62,7 +62,7 @@
 
 - **ApeStore Token Support**: Buy and sell scenes now support tokens launched via ApeStore platform.
 
-  - Automatic detection of ApeStore prebo
+  - Automatic detection of ApeStore prebond Pools
   - Seamless trading integration with ApeStore's pre graduated token ecosystem
   - Optimized routing for ApeStore tokens across all supported DEXs
   - Enhanced token metadata retrieval from ApeStore API
