@@ -1,5 +1,64 @@
 # Changelog
 
+## [0.6.9] - 01/07/2025
+
+### Enhanced User Experience & Interface Overhaul
+
+- **Unified Trade Scene**: Complete redesign of the trading interface with a unified buy/sell experience.
+
+  - Seamless switching between buy and sell modes with a single click
+  - Streamlined workflow reduces the number of steps needed to execute trades
+  - More intuitive navigation between different trading operations
+
+- **Parallel Trading Sessions**: Users can now run multiple trade scenes simultaneously.
+
+  - Open multiple trading windows to compare different tokens or strategies
+  - Switch between active trading sessions without losing progress
+  - Enhanced multitasking capabilities for power users
+
+- **Refactored Referral System**: Refactor of the referral system in preparation for upcoming rewards system.
+  - Improved referral tracking and analytics
+
+### Inline Commands Enhancement
+
+- **Improved Command Parsing**: Enhanced parsing system for inline commands across both direct messages and group chats.
+
+  - More reliable command recognition for `onboard`, `send`, `burn`, `buy`, and `sell`
+  - Better error handling and user feedback for malformed commands
+  - Consistent behavior across all chat environments
+
+- **Bankr API Integration**: New integration with Bankr's Username to Address Lookup (https://bankr.bot/api)
+
+  - Send tokens to Twitter users using `bx@username` format
+  - Send tokens to Farcaster users using `bf@username` format
+  - Automatic address resolution for social media identities
+  - Works with both `send` and `onboard` commands
+
+  ```
+  # Send to Twitter users
+  @VIVIBaseBot send 50 VIVI bx@twitterusername
+
+  # Send to Farcaster users
+  @VIVIBaseBot send 50 BOBR bf@farcasterusername
+
+  # Onboard social media users
+  @VIVIBaseBot onboard 1 TOKEN bx@twitterusername bf@farcasterusername
+  ```
+
+### UI/UX Improvements
+
+- **Fluid Interface Design**: Complete overhaul of the bot's user interface for a more natural and intuitive experience.
+
+  - Smoother transitions between scenes and menus
+  - More responsive button interactions
+  - Better visual hierarchy and information organization
+  - Enhanced mobile experience for Telegram users
+
+- **Streamlined Workflows**: Reduced complexity in common operations while maintaining full functionality.
+  - Faster access to frequently used features
+  - Simplified confirmation processes
+  - More intuitive error messages and guidance
+
 ## [0.5.5] - 06/03/2025
 
 ### Onboard Feature - Batch Token + ETH Distribution
