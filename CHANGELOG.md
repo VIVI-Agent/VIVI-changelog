@@ -2,14 +2,9 @@
 
 ## [0.7.0] - 01/10/2025
 
-### Group Chat Improvements
+### Group Chat Responses
 
-- **Enhanced Bot Responses**: Updated group chat bot responses to include both referral links and VIVI Access Telegram group invitations.
-
-  - Bot now promotes both referral system and community engagement
-  - Improved messaging encourages users to join the VIVI Access group for support and updates
-  - Better integration between referral tracking and community building
-  - Enhanced user onboarding flow through group participation
+VIVI now displays both invites: link with referral and link to our Telegram Community on every tx message.
 
 💸 Manage Funds (https://t.me/VIVIBaseBot?start=ref=tgusername) | Join VIVI 🥃 (https://t.me/viviaccess)
 
