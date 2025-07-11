@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.7.0] - 01/10/2025
+
+### Group Chat Improvements
+
+- **Enhanced Bot Responses**: Updated group chat bot responses to include both referral links and VIVI Access Telegram group invitations.
+
+  - Bot now promotes both referral system and community engagement
+  - Improved messaging encourages users to join the VIVI Access group for support and updates
+  - Better integration between referral tracking and community building
+  - Enhanced user onboarding flow through group participation
+
+💸 Manage Funds (https://t.me/VIVIBaseBot?start=ref=tgusername) | Join VIVI 🥃 (https://t.me/viviaccess)
+
 ## [0.6.9] - 01/07/2025
 
 ### Enhanced User Experience & Interface Overhaul
