@@ -1,6 +1,15 @@
 # Changelog
 
-## [0.7.0] - 01/10/2025
+## [0.7.1] - 07/14/2025
+
+### VIVIRadar - Direct Purchase Buttons
+
+- **Quick Buy Buttons**: VIVIRadar ([@VIVIRadar](https://t.me/VIVIRadar)) now features direct purchase buttons for instant token buying.
+
+  - Four preset purchase amounts: 0.02 Ξ, 0.04 Ξ, 0.07 Ξ and 0.1 Ξ
+  - One-click buying directly through VIVIBaseBot integration
+
+## [0.7.0] - 07/09/2025
 
 ### Group Chat Responses
 
@@ -8,7 +17,7 @@ VIVI now displays both invites: link with referral and link to our Telegram Comm
 
 💸 Manage Funds (https://t.me/VIVIBaseBot?start=ref=tgusername) | Join VIVI 🥃 (https://t.me/viviaccess)
 
-## [0.6.9] - 01/07/2025
+## [0.6.9] - 07/01/2025
 
 ### Enhanced User Experience & Interface Overhaul
 
