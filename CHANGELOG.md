@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.7.2] - 07/21/2025
+
+### Referral Rewards
+
+Users who refer others automatically receive 20% of VIVI fees from their referrals' transactions directly to their configured reward wallet.
+
+- **Direct ETH Rewards**: Referrers now receive **20% of VIVI fees** directly to their configured reward wallet when their referrals make trades.
+
+- **Reward Wallet Configuration**: New "💰 Set Reward Wallet" feature in the Referral menu.
+
+  - Configure any Base network wallet to receive your referral earnings
+  - Real-time balance display shows your accumulated rewards
+
 ## [0.7.1] - 07/14/2025
 
 ### VIVIRadar - Direct Purchase Buttons
