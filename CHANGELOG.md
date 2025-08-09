@@ -9,7 +9,6 @@ Launch of **[VIVIDegenBot](https://t.me/VIVIDegenBot)**, which automatically tra
 - **Instant Trading Buttons**: When users share token contract addresses, the bot immediately generates customizable purchase buttons that redirect to VIVIBaseBot for one-click trading.
   - Four customizable ETH amounts per button (default: 0.02, 0.04, 0.07, 0.1 ETH)
   - Direct integration with VIVIBaseBot's trading engine
-  - No need to copy/paste addresses or navigate menus
 
 - **Owner Configuration**: Group owners control bot behavior and monetization through `/settings` command.
   - Enable for owner only or all group members
@@ -17,7 +16,7 @@ Launch of **[VIVIDegenBot](https://t.me/VIVIDegenBot)**, which automatically tra
   - Set Base wallet address to receive trading fees
 
 - **Revenue System**: Earn from every trade initiated through your group.
-  - **Owner-Only Mode**: 15% from VIVIBaseBot fees
+  - **Owner-Only Mode**: 10% from VIVIBaseBot fees
   - **User Fees Mode**: Users 5%, owners 10% from VIVIBaseBot fees
   - Automatic fee distribution to configured wallet
 
