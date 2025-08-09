@@ -1,5 +1,30 @@
 # Changelog
 
+## [0.7.3] - 08/09/2025
+
+### VIVIDegenBot - Instant Trading Buttons for Token Calls
+
+Launch of **[VIVIDegenBot](https://t.me/VIVIDegenBot)**, which automatically transforms any token address posted in your group into instant trading buttons that connect directly to VIVIBaseBot for immediate purchases.
+
+- **Instant Trading Buttons**: When users share token contract addresses, the bot immediately generates customizable purchase buttons that redirect to VIVIBaseBot for one-click trading.
+  - Four customizable ETH amounts per button (default: 0.02, 0.04, 0.07, 0.1 ETH)
+  - Direct integration with VIVIBaseBot's trading engine
+  - No need to copy/paste addresses or navigate menus
+
+- **Owner Configuration**: Group owners control bot behavior and monetization through `/settings` command.
+  - Enable for owner only or all group members
+  - Customize purchase amounts for trading buttons
+  - Set Base wallet address to receive trading fees
+
+- **Revenue System**: Earn from every trade initiated through your group.
+  - **Owner-Only Mode**: 1500 basis points (15%) from all group trades
+  - **User Fees Mode**: Users earn 500 bps (5%), owners earn 1000 bps (10%)
+  - Automatic fee distribution to configured wallet
+
+- **Additional Features**: Comprehensive token information with links to Basescan, DexScreener, DexTools, and Twitter search.
+
+Transform your group's token calls into instant trading opportunities while earning revenue from every transaction.
+
 ## [0.7.2] - 07/21/2025
 
 ### Referral Rewards
