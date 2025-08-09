@@ -17,8 +17,8 @@ Launch of **[VIVIDegenBot](https://t.me/VIVIDegenBot)**, which automatically tra
   - Set Base wallet address to receive trading fees
 
 - **Revenue System**: Earn from every trade initiated through your group.
-  - **Owner-Only Mode**: 1500 basis points (15%) from all group trades
-  - **User Fees Mode**: Users earn 500 bps (5%), owners earn 1000 bps (10%)
+  - **Owner-Only Mode**: 15% from VIVIBaseBot fees
+  - **User Fees Mode**: Users 5%, owners 10% from VIVIBaseBot fees
   - Automatic fee distribution to configured wallet
 
 - **Additional Features**: Comprehensive token information with links to Basescan, DexScreener, DexTools, and Twitter search.
